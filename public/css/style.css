@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* inpost styles */
+.single--status--block {
+  max-width: 800px;
+  margin: 15px auto;
+  background-color: rgb(235, 235, 235);
+  border-radius: 4px;
+  padding: 10px;
+}

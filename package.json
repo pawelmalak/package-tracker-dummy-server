@@ -1,0 +1,26 @@
+{
+  "name": "package-tracker-dummy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js -e js,html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelmalak/package-tracker-dummy-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawelmalak/package-tracker-dummy-server/issues"
+  },
+  "homepage": "https://github.com/pawelmalak/package-tracker-dummy-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
