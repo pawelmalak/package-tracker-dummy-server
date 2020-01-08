@@ -1,0 +1,1 @@
+simple app serving static files used for development of [package-tracker](https://github.com/pawelmalak/package-tracker)

@@ -16,3 +16,43 @@ html {
   border-radius: 4px;
   padding: 10px;
 }
+
+/* ruch styles */
+.parcel-history {
+  margin: 0 auto;
+}
+
+.parcel-history tr td {
+  padding: 10px;
+}
+
+.statuspwrhistory:nth-of-type(even) {
+  background: #eff0f4 !important;
+}
+
+.text, .row {
+  text-align: center;
+}
+
+#historiaPaczki {
+  margin-top: 30px;
+}
+
+/* poczta styles */
+.cptab-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px;
+}

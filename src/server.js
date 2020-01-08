@@ -16,6 +16,14 @@ app.get('/inpost', (req, res) => {
   res.sendFile(path.join(public, 'inpost.html'));
 })
 
+app.get('/ruch', (req, res) => {
+  res.sendFile(path.join(public, 'ruch.html'));
+})
+
+app.get('/poczta', (req, res) => {
+  res.sendFile(path.join(public, 'poczta.html'));
+})
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 })
